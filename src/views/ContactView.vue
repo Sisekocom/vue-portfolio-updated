@@ -4,12 +4,13 @@
              <div class="row mt-5 pt-5">
                         <div class="col">
                             <div class="row">
-                              
-                                <h2 id="contact">CONTACT ME</h2>
-
 
                                 
+                                <h2 id="contact">CONTACT ME</h2>
+                                
+
                             </div>
+                            
 
                             <form action="https://formspree.io/f/mwkdzevr" method="POST" class="container" id="form">
                                 <div class="mb-3">
@@ -41,6 +42,16 @@
         
     }
 </script>
-<style >
-
+<style scoped>
+.contact {
+    height: 76vh;
+    
+}
+#exampleInputmessage{
+    padding: 4%;
+}
+label{
+    font-weight: bold;
+    font-size: 17px;
+}
 </style>

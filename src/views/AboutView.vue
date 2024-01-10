@@ -3,6 +3,7 @@
     <h1>About</h1>
 
 
+    
     <p v-for="job in getData()" :key="job">
       {{ job.title }}
     </p>
