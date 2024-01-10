@@ -26,6 +26,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/ProjectView.vue"),
   },
   {
+    
     path: "/resume",
     name: "resume",
     // route level code-splitting

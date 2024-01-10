@@ -12,11 +12,9 @@ export default createStore({
   getters: {},
   mutations: {
     setJobTitle(state, value) {
-      // console.log(value)
       state.jobTitle = value;
     },
     setAbout(state, value) {
-      // console.log(value);
       state.about = value;
     },
     setEducation(state, value) {
