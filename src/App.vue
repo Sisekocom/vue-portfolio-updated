@@ -1,19 +1,16 @@
 <template>
   <div>
-    <div class="container-fluid">
+    <!-- <div> -->
       <Navbar />
-    </div>
+    <!-- </div> -->
 
     <main class="container">
 
       <router-view />
     </main>
     
+    <Footer /> 
 
-    <div class="container-fluid">
-
-      <Footer /> 
-    </div>
     
 
   </div>
@@ -31,7 +28,21 @@ export default {
   
 </script>
 
-<style lang="scss">
+<style>
+
+body{
+  height: 700px;
+}
+
+body{
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #42b983;
+  background-image: url(https://www.colerainecastles.com/theme/green-fade.png);
+
+}
+
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
