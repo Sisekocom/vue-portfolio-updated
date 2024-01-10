@@ -42,4 +42,14 @@ export default {
 </script>
 
 <style src="../assets/css/style.css">
+.about{
+  
+  height: 74vh;
+  color: black;
+  font-weight: 300;
+   
+  font-size: x-large;
+  margin-top: 5%;
+  ;
+}
 </style>
