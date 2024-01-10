@@ -2,8 +2,8 @@
     <div>
         
         
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-              <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
+              <div class="container">
                 <button
                   class="navbar-toggler"
                   type="button"
@@ -26,6 +26,9 @@
                     <li class="nav-item">
                       <RouterLink to="/resume" class="nav-link "> RESUME </RouterLink>
                     </li>
+                     <li class="nav-item">
+                          <RouterLink to="/projects" class="nav-link "> PROJECTS</RouterLink>
+                        </li>
 
                     <li class="nav-item">
                       <RouterLink to="/testimonial" class="nav-link "> TESTIMONIALS </RouterLink>
