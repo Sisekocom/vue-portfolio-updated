@@ -1,12 +1,49 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <div>
+    <!-- <div> -->
+      <Navbar />
+    <!-- </div> -->
+
+    <main class="container">
+
+      <router-view />
+    </main>
+    
+    <Footer /> 
+
+    
+
+  </div>
 </template>
 
-<style lang="scss">
+<script>
+import Footer from './components/Footer.vue';
+import Navbar from './components/Navbar.vue'
+export default {
+  components: {
+    Footer,
+    Navbar
+  }
+}
+  
+</script>
+
+<style>
+
+body{
+  height: 700px;
+}
+
+body{
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #42b983;
+  background-image: url(https://www.colerainecastles.com/theme/green-fade.png);
+
+}
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
