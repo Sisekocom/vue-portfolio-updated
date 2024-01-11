@@ -6,11 +6,11 @@
                             <div class="row">
 
                                 
-                                <h2 id="contact">CONTACT ME</h2>
+                                <h1>CONTACT ME</h1>
                                 
 
                             </div>
-                            
+                   
 
                             <form action="https://formspree.io/f/mwkdzevr" method="POST" class="container" id="form">
                                 <div class="mb-3">
@@ -44,7 +44,7 @@
 </script>
 <style scoped>
 .contact {
-    height: 76vh;
+    height: 77vh;
     
 }
 #exampleInputmessage{
@@ -53,5 +53,10 @@
 label{
     font-weight: bold;
     font-size: 17px;
+}
+h2{
+     text-shadow: 5rem
+     maroon;
+     font-size: large;
 }
 </style>

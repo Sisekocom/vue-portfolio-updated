@@ -3,12 +3,13 @@
     <div class="container-fluid">
       <div class="row">
         <h1></h1>
+        
       </div>
       <section class="container" id="pic">
         <div class="row mb-5 pb-5">
           <div class="col mt-5 pt-5 bio">
 
-            <h1>Hi , my name Siseko Nonyongo </h1>
+            <h1>Hi , my name  <span style="color:rgb(109, 121, 52);font-weight:bold">Siseko Nonyongo </span></h1>
             <span id="aboutme"> Aspiring Full stack Developer</span>
 
           </div>
