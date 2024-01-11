@@ -71,11 +71,11 @@ body {
 
 .about {
 
-  height: 74vh;
+  height: 100vh;
   color: black;
   font-weight: 300;
 
   font-size: x-large;
-  margin-top: 5%;
+  margin-top: 10%;
   ;
 }</style>

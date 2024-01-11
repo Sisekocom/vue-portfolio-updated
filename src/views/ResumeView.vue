@@ -9,7 +9,7 @@
             <div class="card-header">
                 {{ edu.year }}
             </div>
-            <div class="card-body">
+            <div class="card-body animate__animated animate__backInLeft">
                 <blockquote class="blockquote mb-0">
                     <p>{{ edu.description }}</p>
                     <footer class="blockquote-footer">{{ edu.place }} <cite title="Source Title">{{ edu.type }}rce
@@ -66,8 +66,7 @@ export default {
 </script>
 <style scoped>
 .resume {
-    height: 83vh;
-    height: 700px;
+    height: 100vh;
 }
 
 .skills {

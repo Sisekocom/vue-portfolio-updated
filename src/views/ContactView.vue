@@ -44,7 +44,7 @@
 </script>
 <style scoped>
 .contact {
-    height: 77vh;
+    height: 100vh;
     
 }
 #exampleInputmessage{

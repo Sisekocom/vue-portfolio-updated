@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="test">
         <div class="row">
             
             <h1>Testimonials</h1>
@@ -9,13 +9,13 @@
 
       <div class="row gap-4 mb-3">
 
-            <div class="card khadi" v-for="testimonial in getTestimonialMethod()" :key="testimonial" style="width: 18rem;">
-                 <img :src="testimonial.profile" class="card-img-top" alt="...">
+            <div class="card khadi animate__animated animate__rotateIn " v-for="testimonial in getTestimonialMethod()" :key="testimonial" style="width: 18rem;">
+                 <img  width="60px" height="150px" :src="testimonial.profile" class="card-img-top" alt="..." loading="lazy">
                  <div class="card-body">
                    <h5 class="card-title">
                            {{ testimonial.name }}
                </h5>
-                   <p class="card-text ">{{ testimonial.quotes }}</p>
+                   <p class="card-text animate__animated animate__shakeY ">{{ testimonial.quotes }}</p>
                    <div class=" d-flex justify-content-center gap-3">
 
                    </div>
@@ -50,7 +50,9 @@ export default {
 </script>
 
 <style scoped>
-
+.test{
+    background-color: antiquewhite;
+}
 .card{
  background-color: antiquewhite;
 

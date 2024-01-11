@@ -20,7 +20,7 @@
                <h5 class="card-title">
                        {{ project.name }}
            </h5>
-               <p class="card-text">{{ project.description }}</p>
+               <p class="card-text  ">{{ project.description }}</p>
                <div class=" d-flex justify-content-center gap-3">
 
                    <a :href="project.gitHub" class="btn btn-primary">gitHub</a>
@@ -59,7 +59,7 @@ export default {
 </script>
 <style scoped>
 .project {
-    height: 77vh;
+    height: 100vh;
 
 }
 
