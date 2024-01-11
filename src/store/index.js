@@ -24,6 +24,7 @@ export default createStore({
       state.testimonial = value;
     },
     setProjects(state, value) {
+      console.log(value);
       state.projects = value;
     },
     setSkills(state, value) {
@@ -60,6 +61,13 @@ export default createStore({
       let SkillsResponse = await SkillsData.json();
       console.log(SkillsResponse.skills);
       context.commit("setSkills", SkillsResponse.skills);
+    },
+    async getProjects(context) {
+      let ProjectsData = await fetch(dataUrl);
+      // console.log(aboutData);
+      let ProjectsResponse = await ProjectsData.json();
+      console.log(ProjectsResponse.projects);
+      context.commit("setProjects", ProjectsResponse.projects);
     },
   },
   modules: {},
