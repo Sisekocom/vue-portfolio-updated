@@ -1,6 +1,6 @@
 <template>
     <div >
-        <h1>This is project page</h1>
+        <h1></h1>
           <img height="100px" width="100px"
                 src="https://www.bing.com/th/id/OGC.02db1749ae530fc23035fb25bbc2b004?pid=1.7&rurl=https%3a%2f%2f64.media.tumblr.com%2f05a242a1e65589cfa75215ce82944158%2ftumblr_o7vs1zNO341runoqyo1_540.gifv&ehk=tVXSAXjw6U78voRgvXweh%2bs%2bzswDW%2bpZwJag6KMNSyQ%3d"
                 alt="">
@@ -12,10 +12,10 @@
     
         
     </div>
-    <div class="row gap-4 mb-3">
+    <div class="row gap-4 mb-5">
 
         <div class="card khadi" v-for="project in getProjectsMethod()" :key="project" style="width: 18rem;">
-             <img :src="project.image" class="card-img-top" alt="...">
+           
              <div class="card-body">
                <h5 class="card-title">
                        {{ project.name }}
@@ -76,6 +76,8 @@ h2 {
     text-shadow: 5rem maroon;
     font-size: large;
 }
+.card{
+ background-color: bisque;}
 </style>
 
 

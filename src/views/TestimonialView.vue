@@ -4,18 +4,62 @@
             
             <h1>Testimonials</h1>
         </div>
-          <img height="100px" width="100px"
-                src="https://www.bing.com/th/id/OGC.02db1749ae530fc23035fb25bbc2b004?pid=1.7&rurl=https%3a%2f%2f64.media.tumblr.com%2f05a242a1e65589cfa75215ce82944158%2ftumblr_o7vs1zNO341runoqyo1_540.gifv&ehk=tVXSAXjw6U78voRgvXweh%2bs%2bzswDW%2bpZwJag6KMNSyQ%3d"
-                alt="">
+          
     </div>
+
+      <div class="row gap-4 mb-3">
+
+            <div class="card khadi" v-for="testimonial in getTestimonialMethod()" :key="testimonial" style="width: 18rem;">
+                 <img :src="testimonial.profile" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">
+                           {{ testimonial.name }}
+               </h5>
+                   <p class="card-text ">{{ testimonial.quotes }}</p>
+                   <div class=" d-flex justify-content-center gap-3">
+
+                   </div>
+                 </div>
+               </div>
+        </div>
 </template>
 
 <script>
 export default {
+    methods: {
+        getTestimonialMethod() {
+            return this.$store.state.testimonials
 
+
+        },
+
+    },
+       computed: {
+        testimonial() {
+            // console.log(this.$store.state.projects);
+            return this.$store.dispatch('gettestimonial')
+        }
+    },
+       mounted() {
+        return this.testimonial
+
+    },
 
     
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+
+.card{
+ background-color: antiquewhite;
+
+    
+}
+.card-text{
+    font-size: 13px;
+    margin: 2%;
+    
+}
+
+</style>
