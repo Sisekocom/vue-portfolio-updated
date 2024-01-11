@@ -67,6 +67,7 @@ export default {
 <style scoped>
 .resume {
     height: 83vh;
+    height: 700px;
 }
 
 .skills {
