@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="row bg-dark text-light">
+        <div class="footer bg-dark text-light">
             <p class="lead"> Siseko Portfolio &copy;
                 <span>
                     {{ currentYear }}
@@ -28,3 +28,11 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+@media screen and (max-width: 412px) {
+
+    
+}
+
+</style>

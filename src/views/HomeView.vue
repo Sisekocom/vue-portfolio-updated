@@ -18,7 +18,7 @@
 
             <div class="row my-7 d-block d-sm-flex">
               <div class="col animate__animated animate__rotateInUpRight">
-                <img src="https://lh3.google.com/u/0/d/11lOCGBhY2uT6EJee0dDV3I1m358P7w4K=w972-h907-iv1
+                <img src="https://i.ibb.co/MPDvDCk/178387048-1863360767156238-70019032027000302-n-removebg-preview.png
 " loading="lazy" class="img-fluid img-landing" alt="#" id="pic">
               </div>
             </div>
@@ -46,6 +46,7 @@ export default {
 
 <style scoped>
 .home{
+  height: 80vh;
     background-size: cover;
   background-repeat: no-repeat;
     background-image: url("https://i.ibb.co/JzjB5rk/giphy-1.gif");
