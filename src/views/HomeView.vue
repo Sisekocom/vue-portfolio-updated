@@ -45,7 +45,11 @@ export default {
 </script>
 
 <style>
-
+.home{
+    background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/JzjB5rk/giphy-1.gif");
+}
 img[alt='logo'] {
     width: 5rem;
     aspect-ratio: 1/1;

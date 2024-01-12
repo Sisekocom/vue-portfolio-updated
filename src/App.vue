@@ -30,12 +30,12 @@ export default {
 
 <style>
 
-#pic {
-    background-size: cover;
+#pic{
+    /* background-size: cover;
   background-repeat: no-repeat;
-    background-image: url("https://i.ibb.co/JzjB5rk/giphy-1.gif");
-    padding-top: 11%;
-}
+    background-image: url("https://i.ibb.co/JzjB5rk/giphy-1.gif"); */
+    padding-top: 11%;}
+
 body{
 
 
