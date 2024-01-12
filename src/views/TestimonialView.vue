@@ -51,6 +51,7 @@ export default {
 
 <style scoped>
 .test{
+    margin: 2%;
     background-color: antiquewhite;
 }
 .card{

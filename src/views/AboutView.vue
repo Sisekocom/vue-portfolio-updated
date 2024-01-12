@@ -71,7 +71,7 @@ body {
 
 .about {
 
-  height: 100vh;
+  height: 74vh;
   color: black;
   font-weight: 300;
 

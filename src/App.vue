@@ -32,11 +32,11 @@ export default {
 
 
 body{
- height: 100vh;
+
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #42b983;
-  background-image: url(https://www.colerainecastles.com/theme/green-fade.png);
+  background-image: url(https://i.ibb.co/JzjB5rk/giphy-1.gif);
 
 }
 
