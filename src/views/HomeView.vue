@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home" >
     <div class="container-fluid">
       <div class="row">
         <h1></h1>
@@ -44,7 +44,44 @@ export default {
 }
 </script>
 
-<style src="../assets/css/style.css">
+<style>
+
+img[alt='logo'] {
+    width: 5rem;
+    aspect-ratio: 1/1;
+}
+
+
+
+.nav-item {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 12%;
+    color: white;
+
+}
+
+#aboutme {
+    font-size: x-large;
+    font-weight: 900;
+    color: #063d24;
+    font-size: 3em;
+
+}
+
+.img-landing {
+    border-radius: 90%;
+    width: 65%;
+} 
+
+body{
+    overflow-x: hidden;
+    background-color: #42b983;
+}
+.nav-item{
+    padding: 2%;
+}
+
 
 
 
