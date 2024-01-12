@@ -36,7 +36,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #42b983;
-  background-image: url(https://i.ibb.co/JzjB5rk/giphy-1.gif);
+  background-image: url(https://i.ibb.co/4VWYBws/OIP-1.jpg);
 
 }
 
