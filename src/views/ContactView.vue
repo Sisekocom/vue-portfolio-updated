@@ -42,7 +42,7 @@
         
     }
 </script>
-<style scoped>
+<style >
 .contact {
     height: 100vh;
     

@@ -32,10 +32,9 @@ export default {
 
 
 body{
-
+  
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #42b983;
   background-image: url(https://i.ibb.co/4VWYBws/OIP-1.jpg);
 
 }

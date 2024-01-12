@@ -49,8 +49,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style >
 .test{
+    justify-content: center;
     margin: 2%;
     background-color: antiquewhite;
 }
