@@ -27,6 +27,9 @@
                     <li class="nav-item">
                       <RouterLink to="/resume" class="nav-link "> RESUME </RouterLink>
                     </li>
+                    <li class="nav-item">
+                      <RouterLink to="/project" class="nav-link "> PROJECT </RouterLink>
+                    </li>
 
                     <li class="nav-item">
                       <RouterLink to="/testimonial" class="nav-link "> TESTIMONIALS </RouterLink>
