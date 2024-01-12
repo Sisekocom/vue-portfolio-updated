@@ -44,7 +44,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .home{
     background-size: cover;
   background-repeat: no-repeat;

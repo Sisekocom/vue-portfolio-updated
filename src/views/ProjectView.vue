@@ -57,7 +57,7 @@ export default {
 
 
 </script>
-<style >
+<style scoped>
 .project {
     height: 100vh;
 
