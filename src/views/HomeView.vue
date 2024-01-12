@@ -18,8 +18,7 @@
 
             <div class="row my-7 d-block d-sm-flex">
               <div class="col animate__animated animate__rotateInUpRight">
-                <img src="https://i.ibb.co/MPDvDCk/178387048-1863360767156238-70019032027000302-n-removebg-preview.png
-" loading="lazy" class="img-fluid img-landing" alt="#" id="pic">
+                <img src="https://i.ibb.co/MPDvDCk/178387048-1863360767156238-70019032027000302-n-removebg-preview.png" loading="lazy" class="img-fluid img-landing" alt="#" id="pic">
               </div>
             </div>
 
