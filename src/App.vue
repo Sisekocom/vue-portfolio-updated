@@ -32,7 +32,7 @@ export default {
 
 
 body{
-  
+ height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #42b983;
