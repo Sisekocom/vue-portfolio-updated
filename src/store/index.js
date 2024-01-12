@@ -6,7 +6,7 @@ export default createStore({
     about: null,
     education: null,
     skills: null,
-    testimonials: null,
+    testimonial: null,
     projects: null,
   },
   getters: {},
@@ -21,8 +21,7 @@ export default createStore({
       state.education = value;
     },
     setTestimonial(state, value) {
-      console.log(value);
-      state.testimonials = value;
+      state.testimonial = value;
     },
     setProjects(state, value) {
       console.log(value);
@@ -46,32 +45,29 @@ export default createStore({
       let aboutData = await fetch(dataUrl);
       // console.log(aboutData);
       let aboutResponse = await aboutData.json();
+      console.log(aboutResponse.about);
       context.commit("setAbout", aboutResponse.about);
     },
     async getEducation(context) {
       let EducationData = await fetch(dataUrl);
       // console.log(aboutData);
       let EducationResponse = await EducationData.json();
+      console.log(EducationResponse.education);
       context.commit("setEducation", EducationResponse.education);
     },
     async getSkills(context) {
       let SkillsData = await fetch(dataUrl);
       // console.log(aboutData);
       let SkillsResponse = await SkillsData.json();
+      console.log(SkillsResponse.skills);
       context.commit("setSkills", SkillsResponse.skills);
     },
     async getProjects(context) {
       let ProjectsData = await fetch(dataUrl);
       // console.log(aboutData);
       let ProjectsResponse = await ProjectsData.json();
+      console.log(ProjectsResponse.projects);
       context.commit("setProjects", ProjectsResponse.projects);
-    },
-    async gettestimonial(context) {
-      let testimonialData = await fetch(dataUrl);
-      // console.log(aboutData);
-      let testimonialResponse = await testimonialData.json();
-      console.log(testimonialResponse.testimonials);
-      context.commit("setTestimonial", testimonialResponse.testimonials);
     },
   },
   modules: {},

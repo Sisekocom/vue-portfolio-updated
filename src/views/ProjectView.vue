@@ -12,9 +12,9 @@
     
         
     </div>
-    <div class="row gap-4 mb-5">
+    <div v-if="getProjectsMethod" class="row gap-4 mb-5">
 
-        <div class="card khadi" v-for="project in getProjectsMethod()" :key="project" style="width: 18rem;">
+        <div  class="card khadi" v-for="project in getProjectsMethod()" :key="project" style="width: 18rem;">
            
              <div class="card-body">
                <h5 class="card-title">
@@ -28,11 +28,20 @@
                </div>
              </div>
            </div>
-    </div>
+        </div>
+        <div v-else >
+         <SpinnerComp />
+        </div>
 
 </template>
 <script>
+    import SpinnerComp from '../components/SpinnerComp.vue';
+
 export default {
+    components : {
+        SpinnerComp
+    },
+
     methods: {
         getProjectsMethod() {
             return this.$store.state.projects
