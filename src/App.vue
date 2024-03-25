@@ -41,7 +41,7 @@ body{
 
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(https://i.ibb.co/4VWYBws/OIP-1.jpg);
+  background-image: url(https://i.gifer.com/1iN6.gif);
 
 }
 
@@ -60,6 +60,7 @@ nav {
   a {
     font-weight: bold;
     color: #2c3e50;
+
 
     
     &.router-link-exact-active {

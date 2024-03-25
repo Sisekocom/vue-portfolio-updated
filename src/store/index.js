@@ -1,5 +1,5 @@
 import { createStore } from "vuex";
-let dataUrl = "https://sisekocom.github.io/repo-data/data/";
+let dataUrl = "https://sisekocom.github.io/PRODUCTS--DATA/data/";
 export default createStore({
   state: {
     jobTitle: null,
@@ -66,7 +66,7 @@ export default createStore({
       let ProjectsData = await fetch(dataUrl);
       // console.log(aboutData);
       let ProjectsResponse = await ProjectsData.json();
-      console.log(ProjectsResponse.projects);
+      console.log(ProjectsResponse);
       context.commit("setProjects", ProjectsResponse.projects);
     },
   },

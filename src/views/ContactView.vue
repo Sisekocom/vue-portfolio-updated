@@ -1,62 +1,67 @@
 
-  <template height="10px" > 
-        <div class="contact">
-             <div class="row mt-5 pt-5">
-                        <div class="col">
-                            <div class="row">
+<template height="10px" >
+    <div class="contact">
+        <div class="row mt-5 pt-5">
+            <div class="col">
+                <div class="row">
 
-                                
-                                <h1>CONTACT ME</h1>
-                                
 
-                            </div>
-                   
+                    <h1>CONTACT ME</h1>
+     <p class="text-center w-responsive mx-auto mb-5">
+            Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+            a matter of hours to help you.
+          </p>
 
-                            <form action="https://formspree.io/f/mwkdzevr" method="POST" class="container" id="form">
-                                <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">First Name </label>
-                                    <input type="Fname" name="first_name" class="form-control" id="Inputfirstname" required aria-describedby="Fname">
-                                    <label for="exampleInputEmail1" class="form-label">Last Name</label>
-                                    <input type="lname" name="surname" class="form-control" id="Inputlastname" required aria-describedby="emailHelp">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" name="email" class="form-control" id="InputEmail1" required aria-describedby="emailHelp">
-                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label id="message"  for="exampleInputmessage" class="form-label">Comments / Questions</label>
-                                    <input type="message" name="message" class="form-control" id="exampleInputmessage" required>
-                                </div>
+                </div>
 
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </form>
+
+                <form action="https://formspree.io/f/mwkdzevr" method="POST" class="container" id="form">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">First Name </label>
+                        <input type="Fname" name="first_name" class="form-control" id="Inputfirstname" required
+                            aria-describedby="Fname">
+                        <label for="exampleInputEmail1" class="form-label">Last Name</label>
+                        <input type="lname" name="surname" class="form-control" id="Inputlastname" required
+                            aria-describedby="emailHelp">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" name="email" class="form-control" id="InputEmail1" required
+                            aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
                         </div>
                     </div>
+                    <div class="mb-3">
+                        <label id="message" for="exampleInputmessage" class="form-label">Comments / Questions</label>
+                        <input type="message" name="message" class="form-control" id="exampleInputmessage" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
         </div>
-
-
+    </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+
+}
 </script>
 <style scoped >
 .contact {
     height: 100vh;
-    
+
 }
-#exampleInputmessage{
+
+#exampleInputmessage {
     padding: 4%;
 }
-label{
+
+label {
     font-weight: bold;
     font-size: 17px;
 }
-h2{
-     text-shadow: 5rem
-     maroon;
-     font-size: large;
-}
-</style>
+
+h2 {
+    text-shadow: 5rem maroon;
+    font-size: large;
+}</style>

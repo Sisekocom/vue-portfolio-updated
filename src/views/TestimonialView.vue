@@ -49,7 +49,7 @@ export default {
 }
 </script>
 
-<styl scoped >
+<style scoped >
 .test{
     justify-content: center;
     margin: 2%;
@@ -66,4 +66,4 @@ export default {
     
 }
 
-</styl>
+</style>

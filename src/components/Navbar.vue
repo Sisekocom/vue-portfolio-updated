@@ -25,15 +25,15 @@
                       <RouterLink to="/about" class="nav-link "> ABOUT </RouterLink>
                     </li>
                     <li class="nav-item">
-                      <RouterLink to="/resume" class="nav-link "> RESUME </RouterLink>
+                      <RouterLink to="/project" class="nav-link "> PROJECTS </RouterLink>
                     </li>
-                    <li class="nav-item">
-                      <RouterLink to="/project" class="nav-link "> PROJECT </RouterLink>
-                    </li>
-
                     <li class="nav-item">
                       <RouterLink to="/testimonial" class="nav-link "> TESTIMONIALS </RouterLink>
                     </li>
+                    <li class="nav-item">
+                      <RouterLink to="/resume" class="nav-link "> RESUME </RouterLink>
+                    </li>
+
                     <li class="nav-item">
                       <RouterLink to="/contact" class="nav-link "> CONTACT </RouterLink>
                     </li>
@@ -98,6 +98,6 @@ body{
     background-color: #42b983;
 }
 .nav-item{
-    padding: 2%;
+    padding: 5%;
 }
 </style>

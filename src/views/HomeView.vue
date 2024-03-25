@@ -44,49 +44,79 @@ export default {
 </script>
 
 <style scoped>
-.home{
-  height: 80vh;
-    background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+
+.home {
+  min-height: 80vh;
+  background-size: cover;
   background-repeat: no-repeat;
-    background-image: url("https://i.ibb.co/JzjB5rk/giphy-1.gif");
+  background-color: #121212; /* Dark theme background */
+  color: #ffffff; /* Light text for contrast */
+  font-family: 'Orbitron', sans-serif;
+  box-shadow: 0 0 20px  rgb(0, 254, 34);
 }
-img[alt='logo'] {
-    width: 5rem;
-    aspect-ratio: 1/1;
+
+.header-intro {
+  text-align: center;
+  margin-top: 2rem;
 }
 
+.header-intro h1 {
+  font-size: 2.5rem;
+  color: #00ffea; /* Techy cyan for the main title */
+  animation: neon 1.5s ease-in-out infinite alternate;
+}
 
-
-.nav-item {
-    font-size: large;
-    font-weight: bold;
-    margin-left: 12%;
-    color: white;
-
+.highlight {
+  color: rgb(109, 121, 52);
+  font-weight: bold;
 }
 
 #aboutme {
-    font-size: x-large;
-    font-weight: 900;
-    color: #063d24;
-    font-size: 3em;
-
+  font-size: 2rem;
+  font-weight: 900;
+  color: #4dff4d; /* Vibrant green for emphasis */
 }
 
 .img-landing {
-    border-radius: 90%;
-    width: 65%;
-} 
-
-body{
-    overflow-x: hidden;
-    background-color: #42b983;
-}
-.nav-item{
-    padding: 2%;
+  border-radius: 50%;
+  width: 50%;
+  box-shadow: 0 0 40px  rgb(109, 121, 52); /* Cyan glow for the image */
+  transition: transform 0.5s ease;
 }
 
+.img-landing:hover {
+  transform: scale(1.05);
+}
 
+.social-icons {
+  margin-top: 20px;
+}
 
+.social-link {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #00ffea;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 8px #00ffea;
+  }
+  to {
+    text-shadow: 0 0 20px #00ffea, 0 0 30px #ff00ff;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #42b983;
+}
 
 </style>
