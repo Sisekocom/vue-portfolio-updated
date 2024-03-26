@@ -6,16 +6,37 @@
                     {{ currentYear }}
                 </span>
             </p>
-            <a
-                href="https://www.linkedin.com/in/siseko-nonyongo-a52629236/?msgControlName=view_message_button&msgConversationId=2-NDdkODcyZWMtN2FlZi00YWNjLTk4MGItMzk1ZTY5NWU1NzU5XzAxMA%3D%3D&msgOverlay=true"><img
-                    width="50px" height="50px"
-                    src="https://cdn2.iconfinder.com/data/icons/linkedin-ui-flat/48/LinkedIn_UI-02-1024.png"
-                    loading="lazy"></a>
-
+           
+                    <div class="contact">
+      <div class="container">
+      
+    
+  
+        <div class="contact-details row text-center mb-5">
+          <div class="col-md-4">
+            <i class="fas fa-envelope mb-3"></i>
+            <p>nonyongos1@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-phone mb-3"></i>
+            <p>+27 81 715 9510</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-map-marker-alt mb-3"></i>
+            <p>Khayelitsha, Cape Town, South Africa</p>
+          </div>
+        </div>
+  
+        <form action="https://formspree.io/f/mwkdzevr" method="POST" id="form">
+          <!-- Form content remains the same -->
+        </form>
+      </div>
+    </div>
         </div>
 
 
     </div>
+    
 </template>
 
 <script>
@@ -34,5 +55,33 @@ export default {
 
     
 }
+.contact {
+    padding: 5px 20px;
+  }
+  
+  .contact-details i {
+    font-size: 24px;
+    color: #007bff; /* Adjust the color to fit your design */
+    animation: bounceIn 1.5s infinite;
+  }
+  
+  .contact-details p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Add the rest of your original styling here, ensuring it's scoped to maintain page consistency */
+  
+  @keyframes bounceIn {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
 
 </style>

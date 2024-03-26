@@ -1,7 +1,7 @@
 <template>
   <div class="about-container">
     <div class="about">
-      <h1><i class="fas fa-info-circle"></i> About</h1>
+      <h1><i class="fas fa-info-circle "></i> About</h1>
       <div class="image-container">
         <img src="https://www.bing.com/th/id/OGC.02db1749ae530fc23035fb25bbc2b004?pid=1.7&rurl=https%3a%2f%2f64.media.tumblr.com%2f05a242a1e65589cfa75215ce82944158%2ftumblr_o7vs1zNO341runoqyo1_540.gifv&ehk=tVXSAXjw6U78voRgvXweh%2bs%2bzswDW%2bpZwJag6KMNSyQ%3d" alt="" class="about-image">
       </div>
@@ -73,7 +73,6 @@ export default {
   min-height: 100vh;
   padding: 2rem;
   background: #121212; /* Dark background for contrast */
-  box-shadow: 0 0 20px  rgb(0, 254, 34);
 }
 
 .about {
@@ -112,6 +111,12 @@ export default {
   border-radius: 50%;
   border: 5px solid white;
   animation: rotateImage 5s linear infinite;
+  border-radius: 50%;
+  box-shadow: 0 0 20px  rgb(0, 254, 34);
+  width: 150px;
+  height: 150px;
+  border: 5px solid white;
+  animation: rotateImage 5s linear infinite;
   
 }
 
@@ -143,5 +148,6 @@ export default {
     margin: 20px;
   }
 }
+
 </style>
 

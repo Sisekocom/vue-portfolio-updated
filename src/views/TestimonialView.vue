@@ -28,7 +28,7 @@
 export default {
     methods: {
         getTestimonialMethod() {
-            return this.$store.state.testimonials
+            return this.$store.state.testimonial
 
 
         },
@@ -36,8 +36,8 @@ export default {
     },
        computed: {
         testimonial() {
-            // console.log(this.$store.state.projects);
-            return this.$store.dispatch('gettestimonial')
+            console.log(this.$store.state.projects);
+            return this.$store.dispatch('getTestimonial')
         }
     },
        mounted() {

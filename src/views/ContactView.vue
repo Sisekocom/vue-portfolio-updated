@@ -1,67 +1,122 @@
-
-<template height="10px" >
-    <div class="contact">
-        <div class="row mt-5 pt-5">
-            <div class="col">
-                <div class="row">
-
-
-                    <h1>CONTACT ME</h1>
-     <p class="text-center w-responsive mx-auto mb-5">
-            Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-            a matter of hours to help you.
-          </p>
-
-                </div>
-
-
-                <form action="https://formspree.io/f/mwkdzevr" method="POST" class="container" id="form">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">First Name </label>
-                        <input type="Fname" name="first_name" class="form-control" id="Inputfirstname" required
-                            aria-describedby="Fname">
-                        <label for="exampleInputEmail1" class="form-label">Last Name</label>
-                        <input type="lname" name="surname" class="form-control" id="Inputlastname" required
-                            aria-describedby="emailHelp">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" name="email" class="form-control" id="InputEmail1" required
-                            aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label id="message" for="exampleInputmessage" class="form-label">Comments / Questions</label>
-                        <input type="message" name="message" class="form-control" id="exampleInputmessage" required>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
+<template>
+    
+    <div class="contact-section">
+        <div class="profile-image ">
+          <img 
+               src="https://www.bing.com/th/id/OGC.02db1749ae530fc23035fb25bbc2b004?pid=1.7&rurl=https%3a%2f%2f64.media.tumblr.com%2f05a242a1e65589cfa75215ce82944158%2ftumblr_o7vs1zNO341runoqyo1_540.gifv&ehk=tVXSAXjw6U78voRgvXweh%2bs%2bzswDW%2bpZwJag6KMNSyQ%3d"
+            alt=""
+            height="100px"
+            width="100px"
+          />
         </div>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-5 mb-5 mb-lg-0">
+            <h2 class="section-title text-center">CONTACT ME</h2>
+            <p class="text-center">Do you have any questions? Please do not hesitate to contact me directly. I will get back to you within a matter of hours to help you.</p>
+            <div class="contact-info mt-4">
+              <a href="https://www.linkedin.com/in/siseko-nonyongo-a52629236/?msgControlName=view_message_button&msgConversationId=2-NDdkODcyZWMtN2FlZi00YWNjLTk4MGItMzk1ZTY5NWU1NzU5XzAxMA%3D%3D&msgOverlay=true" target="_blank">
+                <img width="50px" height="50px" src="https://cdn2.iconfinder.com/data/icons/linkedin-ui-flat/48/LinkedIn_UI-02-1024.png" loading="lazy">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form action="https://formspree.io/f/mwkdzevr" method="POST" class="contact-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="Inputfirstname">First Name</label>
+                  <input type="text" name="first_name" class="form-control" id="Inputfirstname" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="Inputlastname">Last Name</label>
+                  <input type="text" name="surname" class="form-control" id="Inputlastname" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="InputEmail1">Email Address</label>
+                <input type="email" name="email" class="form-control" id="InputEmail1" required>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputmessage">Message</label>
+                <textarea name="message" class="form-control" id="exampleInputmessage" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-</template>
-
-<script>
-export default {
+  </template>
+  
+  <script>
+  export default {
+    // Vue component setup remains the same.
+  }
+  </script>
+  
+  <style scoped>
+  .contact-section {
+    padding: 60px 0;
+    background: #121212; /* Dark theme background */
+    color: #ffffff; /* Light text for contrast */
+  }
+  
+  .section-title {
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #00ffea; /* Techy cyan for the main title */
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info i {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #6d7934; /* Icon color */
+  }
+  
+  .contact-info i:hover {
+    color: #4dff4d; /* Vibrant green on hover */
+  }
+  
+  .contact-form .form-control {
+    border-radius: 0.25rem;
+    background-color: #ffffff; /* Light background for form inputs */
+    border: 1px solid #6d7934; /* Cyan border for form inputs */
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #4dff4d; /* Vibrant green focus color */
+    box-shadow: none;
+  }
+  
+  .contact-form label {
+    color: #ffffff; /* Light text for form labels */
+  }
+  
+  .contact-form .btn-primary {
+    background-color: #6d7934; /* Cyan button color */
+    border-color: #6d7934;
+  }
+  
+  .contact-form .btn-primary:hover {
+    background-color: #4dff4d; /* Vibrant green on button hover */
+    border-color: #4dff4d;
+  }
+img{
+    border-radius: 50%;
+    border-radius: 50%;
+  box-shadow: 0 0 20px  rgb(0, 254, 34);
+  width: 150px;
+  height: 150px;
+  border: 5px solid white;
+  animation: rotateImage 5s linear infinite;
+    
 
 }
-</script>
-<style scoped >
-.contact {
-    height: 100vh;
-
-}
-
-#exampleInputmessage {
-    padding: 4%;
-}
-
-label {
-    font-weight: bold;
-    font-size: 17px;
-}
-
-h2 {
-    text-shadow: 5rem maroon;
-    font-size: large;
-}</style>
+  </style>
+  

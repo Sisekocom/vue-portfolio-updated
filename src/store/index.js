@@ -69,6 +69,14 @@ export default createStore({
       console.log(ProjectsResponse);
       context.commit("setProjects", ProjectsResponse.projects);
     },
+    async getTestimonial(context) {
+      let testimonialData = await fetch(dataUrl);
+      let response = await testimonialData.json();
+      console.log(response.testimonials);
+      context.commit("setTestimonial",response.testimonials);
+    }
   },
+
+
   modules: {},
 });

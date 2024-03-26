@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Projects</h1>
+    <h1 class="animate__animated  animate__hinge">Projects</h1>
     <img
       height="100px"
       width="100px"
@@ -15,8 +15,8 @@
         :key="project.id"
       >
         <div class="card-body">
-          <h5 class="card-title">{{ project.name }}</h5>
-          <p class="card-text">{{ project.description }}</p>
+          <h5 class="card-title animate__animated animate__rotateIn">{{ project.name }}</h5>
+          <p class="card-text animate__animated ">{{ project.description }}</p>
           <div class="d-flex justify-content-center gap-3">
             <a :href="project.gitHub" class="btn btn-primary">
               <i class="fab fa-github"></i> GitHub
@@ -70,9 +70,9 @@ export default {
 img{
   border-radius: 50%;
   box-shadow: 0 0 20px  rgb(0, 254, 34);
-  width: 100px;
-  height: 100px;
-  border: 5px solid white;
+  width: 150px;
+  height: 150px;
+  border: 10px solid white;
   animation: rotateImage 5s linear infinite;
 }
 
@@ -88,8 +88,8 @@ img{
 }
 
 .top-image {
-  width: 100px; /* Adjust based on your preference */
-  height: 100px; /* Maintain aspect ratio */
+  width: 150px; /* Adjust based on your preference */
+  height: 150px; /* Maintain aspect ratio */
   border-radius: 50%;
   animation: rotateImage 5s linear infinite;
   margin-bottom: 2rem; /* Space between image and cards */
