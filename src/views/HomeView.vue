@@ -149,7 +149,7 @@ border-radius: 50%;
 }
 
 .animate__heartBeat {
-  animation: heartBeat 1s ease infinite;
+  animation: heartBeat 20s ease infinite;
 }
 
 .animate__fadeInLeft {

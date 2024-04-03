@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="footer bg-dark text-light">
-            <p class="lead"> Siseko Portfolio &copy;
+            <p class="lead"> My-Portfolio &copy;
                 <span>
                     {{ currentYear }}
                 </span>
@@ -12,7 +12,7 @@
   
         <div class="contact">
         <div class="container">
-          <div class="contact-details row text-center mb-5">
+          <div class="contact-details row text-center mb-3">
             <div class="col-md-3">
               <i class="fab fa-html5 mb-3"></i>
               <p>HTML</p>
@@ -47,10 +47,7 @@
               <i class="fas fa-phone mb-3"></i>
               <p>+27 81 715 9510</p>
             </div>
-  
-        <form action="https://formspree.io/f/mwkdzevr" method="POST" id="form">
-          <!-- Form content remains the same -->
-        </form>
+
       </div>
     </div>
         </div>
