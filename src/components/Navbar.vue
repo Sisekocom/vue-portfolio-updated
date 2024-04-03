@@ -75,7 +75,7 @@ img[alt='logo'] {
 .nav-item {
     font-size: large;
     font-weight: bold;
-    margin-left: 15.6%;
+    margin-left: 9.8%;
     color: white;
 
 }
