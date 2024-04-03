@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="animate__animated  animate__hinge">Projects</h1>
+    <h1 class="animate__animated  animate__hinge">rojects</h1>
     <img
       height="100px"
       width="100px"
@@ -62,10 +62,10 @@ export default {
   justify-content: flex-start;
   min-height: 100vh;
   padding: 2rem;
-  background: #121212; /* Matches the about page */
-  color: #fff; /* Light text */
-  font-family: 'Poppins', sans-serif;
-  box-shadow: 0 0 20px  rgb(0, 254, 34);
+  background: #121212; 
+  color: #fff; 
+  font-family: 'Orbitron', sans-serif;
+  box-shadow: 0 0 200px  rgb(0, 254, 34);
 }
 img{
   border-radius: 50%;
@@ -83,16 +83,16 @@ img{
 
 .header-area h1 {
   font-size: 2.5rem;
-  color: #4dff4d; /* Light green for visibility */
+  color: #4dff4d;
   margin-bottom: 1rem;
 }
 
 .top-image {
-  width: 150px; /* Adjust based on your preference */
-  height: 150px; /* Maintain aspect ratio */
+  width: 150px; 
+  height: 150px; 
   border-radius: 50%;
   animation: rotateImage 5s linear infinite;
-  margin-bottom: 2rem; /* Space between image and cards */
+  margin-bottom: 2rem; 
 }
 
 @keyframes rotateImage {
@@ -114,8 +114,12 @@ img{
   border-radius: 15px;
   overflow: hidden;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 6px rgba(232, 13, 13, 0.5);
   color: white;
+  /* box-shadow: 0 0 20px  rgb(0, 254, 34); */
+  /* width: 150px;
+  height: 150px; */
+  border: 2px solid white;
 }
 
 .card:hover {

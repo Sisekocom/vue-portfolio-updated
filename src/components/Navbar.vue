@@ -31,7 +31,7 @@
                       <RouterLink to="/testimonial" class="nav-link "> TESTIMONIALS </RouterLink>
                     </li>
                     <li class="nav-item">
-                      <RouterLink to="/resume" class="nav-link "> RESUME </RouterLink>
+                      <RouterLink to="/resume" class="nav-link "> EDUCATION </RouterLink>
                     </li>
 
                     <li class="nav-item">
@@ -75,7 +75,7 @@ img[alt='logo'] {
 .nav-item {
     font-size: large;
     font-weight: bold;
-    margin-left: 12%;
+    margin-left: 15.6%;
     color: white;
 
 }

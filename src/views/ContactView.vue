@@ -50,15 +50,15 @@
   
   <script>
   export default {
-    // Vue component setup remains the same.
+
   }
   </script>
   
   <style scoped>
   .contact-section {
     padding: 60px 0;
-    background: #121212; /* Dark theme background */
-    color: #ffffff; /* Light text for contrast */
+    background: #121212; 
+    color: #ffffff;
   }
   
   .section-title {

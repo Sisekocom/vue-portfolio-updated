@@ -12,11 +12,11 @@
         </div>
         <div class="education-section">
           <div class="card my-3 animate__animated animate__backInDown" v-for="edu in getEducationMethod()" :key="edu.id">
-            <div class="card-header">{{ edu.year }}</div>
-            <div class="card-bod ">
+            <div class="card-header animate__animated ">{{ edu.year }}</div>
+            <div class="card-body ">
               <blockquote class="blockquote mb-0">
                 <p>{{ edu.description }}</p>
-                <footer class="blockquote-footer">{{ edu.place }} <cite title="Source Title">{{ edu.type }}</cite></footer>
+                <footer class="blockquote-footer  animate__animated animate__fadeInLeftBig">{{ edu.place }} <br> <cite title="Source Title">{{ edu.type }}</cite></footer>
               </blockquote>
             </div>
           </div>
@@ -58,27 +58,30 @@
   max-width: 1200px;
   margin: auto;
   padding: 20px;
-  color: #ffffff; /* Adjusted text color for better contrast */
+  color: #ffffff;
+}
+.blockquote{
+  color: #cfcfcf;
 }
 
 .resume-content {
-  background: #121212; /* Dark theme for background */
+  background: #121212;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Slightly stronger shadow for depth */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .resume-title {
   text-align: center;
-  font-family: 'Orbitron', sans-serif; /* Matching the font to your about page */
-  color: #4dff4d; /* Bright green for emphasis */
+  font-family: 'Orbitron', sans-serif; 
+  color: #4dff4d; 
 }
 
 .profile-image img {
   border-radius: 50%;
   margin: 20px auto;
   display: block;
-  box-shadow: 0 0 10px #4dff4d; /* Adding a glow effect */
+  box-shadow: 0 0 10px #4dff4d; 
   border-radius: 50%;
   box-shadow: 0 0 20px  rgb(0, 254, 34);
   width: 150px;
@@ -88,35 +91,43 @@
 }
 
 .card {
-  background-color: #1a1a1a; /* Slightly lighter than the main bg for contrast */
-  border: 1px solid #333; /* Subtle borders for depth */
+  background-color: #1a1a1a; 
+  border: 1px solid #333; 
   border-radius: 5px;
+   color: black;
+  
 }
 
 .card-header {
-  background-color: #6d7934; /* A green shade matching the highlight color */
-  color: white;
+  background-color: #6d7934; 
+  color: rgb(255, 255, 255);
   font-weight: bold;
+}
+p{
+  color: white;
 }
 
 .card-body {
   padding: 15px;
   font-style: normal;
-  color: #cfcfcf; /* Light grey for readability */
+  color: white; 
 }
 
 .skills-section h2 {
   font-size: 1.5rem;
-  color: #4dff4d; /* Matching title colors */
+  color: #4dff4d;
   padding-top: 20px;
 }
 
 .skills {
-  background-color: #262626; /* Darker bg for skills section for distinction */
+  background-color: #262626; 
   border-radius: 5px;
   padding: 10px;
   margin: 10px 0;
   font-size: 1rem;
-  color: #cfcfcf; /* Ensuring text is readable */
+  color: #cfcfcf; 
+}
+#description{
+  color: aqua;
 }
 </style>

@@ -17,15 +17,7 @@
           {{ abot }}
         </p>
 
-        <h2></h2>
-        <p v-for="edu in getEducation()" :key="edu" class="info">
-            {{ edu.id }} - {{ edu.year }}: {{ edu.description }} at {{ edu.place }} - {{ edu.type }} - {{ edu.certificate }}
-        </p>
-
-        <h2></h2>
-        <p v-for="ski in getSkills()" :key="ski" class="info">
-            <i class="fas fa-check-circle"></i> {{ ski.title }} - Experience: {{ ski.ex }} years
-        </p>
+       
       </div>
     </div>
   </div>
@@ -72,7 +64,7 @@ export default {
   align-items: center;
   min-height: 100vh;
   padding: 2rem;
-  background: #121212; /* Dark background for contrast */
+  background: #121212; 
 }
 
 .about {
@@ -95,8 +87,8 @@ export default {
   color: #fff;
   text-align: center;
   padding: 1.5rem 0;
-  background-color: rgba(0,0,0,0.2); /* Subtle overlay */
-  font-family: 'Poppins', sans-serif;
+  background-color: rgba(0,0,0,0.2);
+  font-family: 'Orbitron', sans-serif;
 }
 
 .image-container {
@@ -131,9 +123,13 @@ export default {
   padding: 2rem;
   text-align: justify;
 }
+p{
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+}
 
 .info-section h2 {
-  color: #4dff4d; /* Light green for visibility */
+  color: #4dff4d; 
   margin-bottom: 1rem;
 }
 
