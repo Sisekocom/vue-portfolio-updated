@@ -59,6 +59,7 @@
   margin: auto;
   padding: 20px;
   color: #ffffff;
+  box-shadow: 0 0 20px  rgb(4, 254, 0);
 }
 .blockquote{
   color: #cfcfcf;

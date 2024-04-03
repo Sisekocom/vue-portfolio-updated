@@ -59,6 +59,7 @@
     padding: 60px 0;
     background: #121212; 
     color: #ffffff;
+    box-shadow: 0 0 20px  rgb(4, 254, 0);
   }
   
   .section-title {

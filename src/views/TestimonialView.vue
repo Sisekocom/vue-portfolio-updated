@@ -2,6 +2,9 @@
     <section class="testimonials-section">
       <div class="container">
         <h2 class="section-title"><i class="fas fa-quote-left"></i> What People Say <i class="fas fa-quote-right"></i></h2>
+        <div class="image-container">
+        <img src="https://www.bing.com/th/id/OGC.02db1749ae530fc23035fb25bbc2b004?pid=1.7&rurl=https%3a%2f%2f64.media.tumblr.com%2f05a242a1e65589cfa75215ce82944158%2ftumblr_o7vs1zNO341runoqyo1_540.gifv&ehk=tVXSAXjw6U78voRgvXweh%2bs%2bzswDW%2bpZwJag6KMNSyQ%3d" alt="" class="about-image">
+      </div>
         <p class="section-description">
           Here are some testimonials from my peers and colleagues. I am thrilled to share their experiences with you!
         </p>
@@ -36,21 +39,37 @@
   <style scoped>
   .testimonials-section {
     padding: 60px 0;
-    background-color: #f8f9fa; /* Light gray background */
-    color: #343a40; /* Dark text color */
+    background-color: #f8f9fa; 
+    color: #343a40; 
     background-color: #000000b7;
+    box-shadow: 0 0 20px  rgb(4, 254, 0);
   }
+  .about-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+  animation: rotateImage 5s linear infinite;
+  border-radius: 50%;
+  box-shadow: 0 0 20px  rgb(0, 254, 34);
+  width: 50px;
+  height: 50px;
+  border: 5px solid white;
+  animation: rotateImage 5s linear infinite;
+  
+}
   
   .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    box-shadow: 0 0 20px  rgb(4, 254, 0);
   }
   
   .section-title {
     text-align: center;
     font-size: 2.5rem;
-    color: #007bff; /* Primary color from your product page */
+    color: #007bff; 
     margin-bottom: 1rem;
     font-family: 'Orbitron', sans-serif;
   }
@@ -58,7 +77,7 @@
   .section-description {
     text-align: center;
     margin-bottom: 2rem;
-    color: #6c757d; /* Secondary text color */
+    color: #6c757d;
     font-size: 1.1rem;
     font-family: 'Orbitron', sans-serif;
   }

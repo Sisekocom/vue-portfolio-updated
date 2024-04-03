@@ -43,6 +43,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 20px  rgb(0, 254, 34);
 }
 
 .header-intro {

@@ -65,6 +65,7 @@ export default {
   min-height: 100vh;
   padding: 2rem;
   background: #121212; 
+  box-shadow: 0 0 20px  rgb(0, 254, 34);
 }
 
 .about {
