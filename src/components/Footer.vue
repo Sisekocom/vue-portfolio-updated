@@ -111,7 +111,7 @@ export default {
   .contact-details i {
     font-size: 24px;
     color: #007bff; 
-    animation: bounceIn 7.5s infinite;
+    animation: bounceIn 5.5s infinite;
   }
   h6{
     text-decoration: underline;
