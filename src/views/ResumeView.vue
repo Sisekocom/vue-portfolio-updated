@@ -107,7 +107,10 @@
 p{
   color: white;
 }
+.blockquote{
+  font-family: 'Orbitron', sans-serif; 
 
+}
 .card-body {
   padding: 15px;
   font-style: normal;

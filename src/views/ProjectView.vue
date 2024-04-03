@@ -18,10 +18,10 @@
           <h5 class="card-title animate__animated animate__rotateIn">{{ project.name }}</h5>
           <p class="card-text animate__animated ">{{ project.description }}</p>
           <div class="d-flex justify-content-center gap-3">
-            <a :href="project.gitHub" class="btn btn-primary">
+            <a :href="project.gitHub" class="btn btn-primary" target="_blank">
               <i class="fab fa-github"></i> GitHub
             </a>
-            <a :href="project.netlify" class="btn btn-primary">
+            <a :href="project.netlify" class="btn btn-primary" target="_blank">
               <i class="fas fa-link"></i> Netlify
             </a>
           </div>

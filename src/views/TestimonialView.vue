@@ -6,7 +6,7 @@
         <img src="https://www.bing.com/th/id/OGC.02db1749ae530fc23035fb25bbc2b004?pid=1.7&rurl=https%3a%2f%2f64.media.tumblr.com%2f05a242a1e65589cfa75215ce82944158%2ftumblr_o7vs1zNO341runoqyo1_540.gifv&ehk=tVXSAXjw6U78voRgvXweh%2bs%2bzswDW%2bpZwJag6KMNSyQ%3d" alt="" class="about-image">
       </div>
         <p class="section-description">
-          Here are some testimonials from my peers and colleagues. I am thrilled to share their experiences with you!
+          Here are some reviews from my peers and colleagues. I am thrilled to share their experiences with you!
         </p>
         <div class="testimonials-wrapper">
           <div class="testimonial-card" v-for="(testimonial, index) in testimonials" :key="index">

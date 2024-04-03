@@ -25,13 +25,13 @@
                       <RouterLink to="/about" class="nav-link "> ABOUT </RouterLink>
                     </li>
                     <li class="nav-item">
+                      <RouterLink to="/resume" class="nav-link "> EDUCATION/EXPERIENCE </RouterLink>
+                    </li>
+                    <li class="nav-item">
                       <RouterLink to="/project" class="nav-link "> PROJECTS </RouterLink>
                     </li>
                     <li class="nav-item">
                       <RouterLink to="/testimonial" class="nav-link "> TESTIMONIALS </RouterLink>
-                    </li>
-                    <li class="nav-item">
-                      <RouterLink to="/resume" class="nav-link "> EDUCATION </RouterLink>
                     </li>
 
                     <li class="nav-item">
@@ -75,8 +75,9 @@ img[alt='logo'] {
 .nav-item {
     font-size: large;
     font-weight: bold;
-    margin-left: 9.8%;
+    margin-left: 1%;
     color: white;
+    font-family: 'Orbitron', sans-serif;
 
 }
 

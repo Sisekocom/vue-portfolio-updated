@@ -18,8 +18,10 @@
               <a href="https://www.linkedin.com/in/siseko-nonyongo-a52629236/?msgControlName=view_message_button&msgConversationId=2-NDdkODcyZWMtN2FlZi00YWNjLTk4MGItMzk1ZTY5NWU1NzU5XzAxMA%3D%3D&msgOverlay=true" target="_blank">
                 <img width="50px" height="50px" src="https://cdn2.iconfinder.com/data/icons/linkedin-ui-flat/48/LinkedIn_UI-02-1024.png" loading="lazy">
               </a>
+              
             </div>
           </div>
+          
           <div class="col-lg-6">
             <form action="https://formspree.io/f/mwkdzevr" method="POST" class="contact-form">
               <div class="form-row">
@@ -45,7 +47,19 @@
           </div>
         </div>
       </div>
+      <div class="contact-details row text-center mb-5">
+          <div class="col-md-3">
+            <i class="fas fa-envelope mb-3"></i>
+            <p>nonyongos1@gmail.com</p>
+          </div>
+        
+          <div class="col-md-3">
+            <i class="fas fa-map-marker-alt mb-3"></i>
+            <p>Khayelitsha, Cape Town, South Africa</p>
+          </div>
+        </div>
     </div>
+    
   </template>
   
   <script>

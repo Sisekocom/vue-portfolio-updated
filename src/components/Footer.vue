@@ -9,23 +9,44 @@
            
                     <div class="contact">
       <div class="container">
-      
-    
   
-        <div class="contact-details row text-center mb-5">
-          <div class="col-md-4">
-            <i class="fas fa-envelope mb-3"></i>
-            <p>nonyongos1@gmail.com</p>
+        <div class="contact">
+        <div class="container">
+          <div class="contact-details row text-center mb-5">
+            <div class="col-md-3">
+              <i class="fab fa-html5 mb-3"></i>
+              <p>HTML</p>
+            </div>
+            <div class="col-md-3">
+              <i class="fab fa-css3-alt mb-3"></i>
+              <p>CSS</p>
+            </div>
+            <div class="col-md-3">
+              <i class="fab fa-js-square mb-3"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="col-md-3">
+              <i class="fab fa-bootstrap mb-3"></i>
+              <p>Bootstrap</p>
+            </div>
           </div>
-          <div class="col-md-4">
-            <i class="fas fa-phone mb-3"></i>
-            <p>+27 81 715 9510</p>
-          </div>
-          <div class="col-md-4">
-            <i class="fas fa-map-marker-alt mb-3"></i>
-            <p>Khayelitsha, Cape Town, South Africa</p>
-          </div>
-        </div>
+          <div class="contact-details row text-center mb-5">
+            <div class="col-md-3">
+              <i class="fab fa-vuejs mb-3"></i>
+              <p>Vue.js</p>
+            </div>
+            <div class="col-md-3">
+              <i class="fab fa-node-js mb-3"></i>
+              <p>Node.js</p>
+            </div>
+            <div class="col-md-3">
+              <i class="fas fa-database mb-3"></i>
+              <p>MySQL</p>
+            </div>
+            <div class="col-md-3">
+              <i class="fas fa-phone mb-3"></i>
+              <p>+27 81 715 9510</p>
+            </div>
   
         <form action="https://formspree.io/f/mwkdzevr" method="POST" id="form">
           <!-- Form content remains the same -->
@@ -33,6 +54,9 @@
       </div>
     </div>
         </div>
+      </div>
+    </div>
+  </div>
 
 
     </div>
@@ -58,11 +82,39 @@ export default {
 .contact {
     padding: 5px 20px;
   }
-  
+  .fa-vuejs{
+    background-color: forestgreen;
+    border-radius: 20%;
+  }
+  .fa-bootstrap{
+    background-color: rgba(71, 213, 97, 0.816);
+    border-radius: 20%;
+  }
+  .fa-database{
+    background-color: rgb(0, 149, 255);
+    border-radius: 20%;
+  }
+  .fa-html5{
+    background-color: orange;
+    border-radius: 20%;
+  }
+  .fa-css3-alt{
+    background-color: rgb(0, 149, 255);
+    border-radius: 20%;
+  }
+  .fa-node-js{
+    background-color: rgb(29, 233, 29);
+    border-radius: 20%;
+  }
+  .fa-js-square{
+    background-color: rgb(29, 233, 29);
+    border-radius: 20%;
+  }
+ 
   .contact-details i {
     font-size: 24px;
-    color: #007bff; /* Adjust the color to fit your design */
-    animation: bounceIn 1.5s infinite;
+    color: #007bff; 
+    /* animation: bounceIn 1.5s infinite; */
   }
   
   .contact-details p {
@@ -70,18 +122,24 @@ export default {
     margin-top: 10px;
   }
   
-  /* Add the rest of your original styling here, ensuring it's scoped to maintain page consistency */
-  
-  @keyframes bounceIn {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-30px);
-    }
-    60% {
-      transform: translateY(-15px);
-    }
-  }
+ 
+  @media screen and (max-width: 412px) {}
+.contact {
+  padding: 5px 20px;
+}
+
+.contact-details i {
+  font-size: 40px;
+  color: #16426f; 
+
+}
+
+.contact-details p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
 
 </style>
+
+
