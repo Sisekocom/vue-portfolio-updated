@@ -16,7 +16,7 @@
             <div class="col-md-3">
               <i class="fab fa-html5 mb-3"></i>
               <p>HTML</p>
-            </div>
+            </div>c
             <div class="col-md-3">
               <i class="fab fa-css3-alt mb-3"></i>
               <p>CSS</p>
@@ -111,9 +111,12 @@ export default {
   .contact-details i {
     font-size: 24px;
     color: #007bff; 
-    /* animation: bounceIn 1.5s infinite; */
+    animation: bounceIn 7.5s infinite;
   }
+  h6{
+    text-decoration: underline;
   
+  }
   .contact-details p {
     font-size: 18px;
     margin-top: 10px;
