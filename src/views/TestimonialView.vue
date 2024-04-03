@@ -111,8 +111,8 @@
   }
   
   .testimonial-image {
-    width: 160px;
-    height: 160px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     margin-bottom: 1rem;
     border: 4px solid #007bff; /* Accent border color */
