@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="animate__animated  animate__hinge">rojects</h1>
+    <h1 class="animate__animated  animate__hinge">Projects</h1>
     <img
       height="100px"
       width="100px"
