@@ -16,7 +16,7 @@
             <div class="col-md-3">
               <i class="fab fa-html5 mb-3"></i>
               <p>HTML</p>
-            </div>c
+            </div>
             <div class="col-md-3">
               <i class="fab fa-css3-alt mb-3"></i>
               <p>CSS</p>
