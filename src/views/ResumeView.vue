@@ -11,8 +11,8 @@
           />
         </div>
         <div class="education-section">
-          <div class="card my-3 animate__animated animate__backInDown" v-for="edu in getEducationMethod()" :key="edu.id">
-            <div class="card-header animate__animated ">{{ edu.year }}</div>
+          <div class="card my-3 animate__animated  animate__rubberBand" v-for="edu in getEducationMethod()" :key="edu.id">
+            <div class="card-header animate__animated animate__fadeInUpBig">{{ edu.year }}</div>
             <div class="card-body ">
               <blockquote class="blockquote mb-0">
                 <p>{{ edu.description }}</p>
