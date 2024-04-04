@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-md-6 animate__animated animate__fadeInLeft">
             <div class="bio">
-              <h2 class="animate__animated animate__fadeInUp">Aspiring Full stack Developer</h2>
+              <h2 class="animate__animated animate__fadeInUp">I'm a full stack web developer</h2>
               <p class="animate__animated animate__fadeInUp">Passionate about coding and building innovative projects.</p>
             </div>
           </div>
