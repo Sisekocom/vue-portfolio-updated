@@ -57,6 +57,10 @@
             <i class="fas fa-map-marker-alt mb-3"></i>
             <p>Khayelitsha, Cape Town, South Africa</p>
           </div>
+
+ 
+
+
         </div>
     </div>
     
@@ -69,6 +73,10 @@
   </script>
   
   <style scoped>
+  .btn1{
+    margin-top: 25% ;
+    
+  }
   .contact-section {
     padding: 60px 0;
     background: #121212; 

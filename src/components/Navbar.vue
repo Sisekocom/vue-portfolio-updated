@@ -37,11 +37,16 @@
                     <li class="nav-item">
                       <RouterLink to="/contact" class="nav-link "> CONTACT </RouterLink>
                     </li>
+                    
         
                   </ul>
+                  
+                  
                 </div>
               </div>
             </nav>
+            
+            
     </div>
 </template>
 <script>
