@@ -47,7 +47,6 @@
               <i class="fas fa-phone mb-3"></i>
               <p>+27 81 715 9510</p>
             </div>
-            
 
       </div>
     </div>
@@ -58,6 +57,7 @@
 
 
     </div>
+
     
 </template>
 

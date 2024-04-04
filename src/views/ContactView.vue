@@ -12,7 +12,7 @@
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-5 mb-5 mb-lg-0">
-            <h2 class="section-title text-center">CONTACT ME</h2>
+            <h2 class="section-title text-center">GET IN TOUCH</h2>
             <p class="text-center">Do you have any questions? Please do not hesitate to contact me directly. I will get back to you within a matter of hours to help you.</p>
             <div class="contact-info mt-4">
               <a href="https://www.linkedin.com/in/siseko-nonyongo-a52629236/?msgControlName=view_message_button&msgConversationId=2-NDdkODcyZWMtN2FlZi00YWNjLTk4MGItMzk1ZTY5NWU1NzU5XzAxMA%3D%3D&msgOverlay=true" target="_blank">
