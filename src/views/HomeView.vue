@@ -43,7 +43,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 20px  rgb(0, 254, 34);
+  box-shadow: 0 0 20px  #6d7934(0, 254, 34);
 }
 
 .header-intro {
@@ -68,7 +68,7 @@ export default {
 .bio h2 {
   font-size: 3rem;
   font-weight: bold;
-  color: #4dff4d;
+  color:  #6d7934;
   margin-top: 10%;
 }
 
@@ -87,10 +87,10 @@ export default {
   width: 350px;
 margin-top: -2%;
 border-radius: 50%;
-  box-shadow: 0 0 20px  rgb(0, 254, 34);
+  box-shadow: 0 0 20px  rgb(98, 190, 6);
   width: 350px;
   height: 350px;
-  border: 5px solid white;
+  border: 7px solid #6d7934;
   animation: rotateImage 5s linear infinite;
 }
 

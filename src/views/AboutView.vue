@@ -57,6 +57,8 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 .about-container {
   display: flex;
@@ -65,7 +67,7 @@ export default {
   min-height: 100vh;
   padding: 2rem;
   background: #121212; 
-  box-shadow: 0 0 20px  rgb(0, 254, 34);
+  box-shadow: 0 0 20px #21f700(0, 254, 34);
 }
 
 .about {
@@ -102,13 +104,13 @@ export default {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid #6d7934;
   animation: rotateImage 5s linear infinite;
   border-radius: 50%;
   box-shadow: 0 0 20px  rgb(0, 254, 34);
   width: 150px;
   height: 150px;
-  border: 5px solid white;
+  border: 7px solid #6d7934 ;
   animation: rotateImage 5s linear infinite;
   
 }
@@ -130,7 +132,7 @@ p{
 }
 
 .info-section h2 {
-  color: #4dff4d; 
+  color: #6d7934; 
   margin-bottom: 1rem;
 }
 

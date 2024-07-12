@@ -59,7 +59,7 @@
   margin: auto;
   padding: 20px;
   color: #ffffff;
-  box-shadow: 0 0 20px  rgb(4, 254, 0);
+  box-shadow: 0 0 20px  #6d7934;
 }
 .blockquote{
   color: #cfcfcf;
@@ -75,7 +75,7 @@
 .resume-title {
   text-align: center;
   font-family: 'Orbitron', sans-serif; 
-  color: #4dff4d; 
+  color: #6d7934; 
 }
 
 .profile-image img {
@@ -87,7 +87,7 @@
   box-shadow: 0 0 20px  rgb(0, 254, 34);
   width: 150px;
   height: 150px;
-  border: 5px solid white;
+  border: 5px solid #6d7934;
   animation: rotateImage 5s linear infinite;
 }
 
@@ -119,7 +119,7 @@ p{
 
 .skills-section h2 {
   font-size: 1.5rem;
-  color: #4dff4d;
+  /* color: #4dff4d; */
   padding-top: 20px;
 }
 

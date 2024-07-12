@@ -42,19 +42,19 @@
     background-color: #f8f9fa; 
     color: #343a40; 
     background-color: #000000b7;
-    box-shadow: 0 0 20px  rgb(4, 254, 0);
+    /* box-shadow: 0 0 20px  rgb(4, 254, 0); */
   }
   .about-image {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid #6d7934;
   animation: rotateImage 5s linear infinite;
   border-radius: 50%;
-  box-shadow: 0 0 20px  rgb(0, 254, 34);
-  width: 50px;
-  height: 50px;
-  border: 5px solid white;
+  box-shadow: 0 0 20px   #6d7934(0, 254, 34);
+  width: 150px;
+  height: 150px;
+  border: 7x solid #6d7934;
   animation: rotateImage 5s linear infinite;
   
 }
@@ -90,10 +90,10 @@
   }
   
   .testimonial-card {
-    background-color: #000000; /* Black background */
+    background-color: #000000; 
     border: none;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* 3D effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); 
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
@@ -101,7 +101,7 @@
   
   .testimonial-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6); /* Increased shadow on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6); 
   }
   
   .testimonial-figure {
@@ -115,19 +115,19 @@
     height: 220px;
     border-radius: 50%;
     margin-bottom: 1rem;
-    border: 4px solid #007bff; /* Accent border color */
+    border: 4px solid #007bff; 
   }
   
   .testimonial-text {
     font-size: 0.9rem;
-    color: #ffffff; /* White text color */
+    color: #ffffff; 
     margin-bottom: 1rem;
     font-family: 'Orbitron', sans-serif;
   }
   
   .testimonial-author {
     font-weight: bold;
-    color: #ffffff; /* White text color */
+    color: #ffffff; 
     font-family: 'Orbitron', sans-serif;
   }
   </style>

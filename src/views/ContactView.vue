@@ -22,14 +22,14 @@
             </div>
           </div>
           
-          <div class="col-lg-6">
+          <div class="col-lg-6 m-4">
             <form action="https://formspree.io/f/mwkdzevr" method="POST" class="contact-form">
               <div class="form-row">
-                <div class="form-group col-md-6">
+                <div class="form-group col">
                   <label for="Inputfirstname">First Name</label>
                   <input type="text" name="first_name" class="form-control" id="Inputfirstname" required>
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col">
                   <label for="Inputlastname">Last Name</label>
                   <input type="text" name="surname" class="form-control" id="Inputlastname" required>
                 </div>
@@ -42,7 +42,7 @@
                 <label for="exampleInputmessage">Message</label>
                 <textarea name="message" class="form-control" id="exampleInputmessage" rows="4" required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Send Message</button>
+              <button type="submit" class="btn btn-primary m-3">Send Message</button>
             </form>
           </div>
         </div>
@@ -81,14 +81,14 @@
     padding: 60px 0;
     background: #121212; 
     color: #ffffff;
-    box-shadow: 0 0 20px  rgb(4, 254, 0);
+    /* box-shadow: 0 0 20px  rgb(4, 254, 0); */
   }
   
   .section-title {
     margin-bottom: 30px;
     font-size: 36px;
     font-weight: 700;
-    color: #00ffea; /* Techy cyan for the main title */
+    color: #00ffea; 
   }
   
   .contact-info p {
@@ -99,35 +99,35 @@
   .contact-info i {
     margin-right: 10px;
     font-size: 24px;
-    color: #6d7934; /* Icon color */
+    color: #6d7934; 
   }
   
   .contact-info i:hover {
-    color: #4dff4d; /* Vibrant green on hover */
+    color: #4dff4d; 
   }
   
   .contact-form .form-control {
     border-radius: 0.25rem;
-    background-color: #ffffff; /* Light background for form inputs */
-    border: 1px solid #6d7934; /* Cyan border for form inputs */
+    background-color: #ffffff; 
+    border: 1px solid #6d7934; 
   }
   
   .contact-form .form-control:focus {
-    border-color: #4dff4d; /* Vibrant green focus color */
+    border-color: #4dff4d; 
     box-shadow: none;
   }
   
   .contact-form label {
-    color: #ffffff; /* Light text for form labels */
+    color: #ffffff; 
   }
   
   .contact-form .btn-primary {
-    background-color: #6d7934; /* Cyan button color */
+    background-color: #6d7934; 
     border-color: #6d7934;
   }
   
   .contact-form .btn-primary:hover {
-    background-color: #4dff4d; /* Vibrant green on button hover */
+    background-color: #4dff4d; 
     border-color: #4dff4d;
   }
 img{
@@ -136,7 +136,7 @@ img{
   box-shadow: 0 0 20px  rgb(0, 254, 34);
   width: 150px;
   height: 150px;
-  border: 5px solid white;
+  border: 5px solid #6d7934;
   animation: rotateImage 5s linear infinite;
     
 

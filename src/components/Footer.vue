@@ -1,146 +1,105 @@
 <template>
-    <div>
-        <div class="footer bg-dark text-light">
-            <p class="lead"> My-Portfolio &copy;
-                <span>
-                    {{ currentYear }}
-                </span>
-            </p>
-           
-                    <div class="contact">
-      <div class="container">
-  
-        <div class="contact">
-        <div class="container">
-          <div class="contact-details row text-center mb-3">
-            <div class="col-md-3">
-              <i class="fab fa-html5 mb-3"></i>
-              <p>HTML</p>
-            </div>
-            <div class="col-md-3">
-              <i class="fab fa-css3-alt mb-3"></i>
-              <p>CSS</p>
-            </div>
-            <div class="col-md-3">
-              <i class="fab fa-js-square mb-3"></i>
-              <p>JavaScript</p>
-            </div>
-            <div class="col-md-3">
-              <i class="fab fa-bootstrap mb-3"></i>
-              <p>Bootstrap</p>
-            </div>
+  <div>
+    <div class="footer bg-dark text-light">
+      <p class="lead"> My-Portfolio &copy;
+        <span>{{ currentYear }}</span>
+      </p>
+      <div class="skills">
+        <div class="main">
+          <div class="skill">
+            <img src="https://i.postimg.cc/GmTjML1J/OIP-22-removebg-preview.png" />
+            <h4>HTML</h4>
+            <p>1 year experience</p>
+            <p>Entry Level</p>
           </div>
-          <div class="contact-details row text-center mb-5">
-            <div class="col-md-3">
-              <i class="fab fa-vuejs mb-3"></i>
-              <p>Vue.js</p>
-            </div>
-            <div class="col-md-3">
-              <i class="fab fa-node-js mb-3"></i>
-              <p>Node.js</p>
-            </div>
-            <div class="col-md-3">
-              <i class="fas fa-database mb-3"></i>
-              <p>MySQL</p>
-            </div>
-            <div class="col-md-3">
-              <i class="fas fa-phone mb-3"></i>
-              <p>+27 81 715 9510</p>
-            </div>
-
-      </div>
-    </div>
+          <div class="skill">
+            <img  width="120px" height="
+            140px"  src="https://i.postimg.cc/GpQTKV9x/css-3-logo-removebg-preview.png" />
+            <h4>CSS</h4>
+            <p>1 year experience</p>
+            <p>Entry Level</p>
+          </div>
+          <div class="skill">
+            <img  width="120px" height="
+            140px"   src="https://i.postimg.cc/fbwfMx95/OIP-25-removebg-preview.png" />
+            <h4>Vue.js</h4>
+            <p>1 year experience</p>
+            <p>Entry Level</p>
+          </div>
+          <div class="skill">
+            <img  width="120px" height="
+            140px" src="https://i.postimg.cc/L6Ws9RgW/R-6-removebg-preview.png" />
+            <h4>Bootstrap </h4>
+            <p>1 year experience</p>
+            <p>Entry Level</p>
+          </div>
+          <div class="skill">
+            <img width="120px" height="
+            140px" src="https://i.postimg.cc/Hn4PSpDk/OIP-29-removebg-preview.png" />
+            <h4>MySql</h4>
+            <p>1 year experience</p>
+            <p>Entry Level</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
-
-    </div>
-
-    
 </template>
 
 <script>
 export default {
-    name: "FooterComp",
-    data() {
-        return {
-            currentYear: new Date().getFullYear()
-        }
+  name: "FooterComp",
+  data() {
+    return {
+      currentYear: new Date().getFullYear()
     }
+  }
 }
 </script>
 
 <style scoped>
-@media screen and (max-width: 412px) {
-
-    
-}
-.contact {
-    padding: 5px 20px;
-  }
-  .fa-vuejs{
-    background-color: forestgreen;
-    border-radius: 20%;
-  }
-  .fa-bootstrap{
-    background-color: rgba(71, 213, 97, 0.816);
-    border-radius: 20%;
-  }
-  .fa-database{
-    background-color: rgb(0, 149, 255);
-    border-radius: 20%;
-  }
-  .fa-html5{
-    background-color: orange;
-    border-radius: 20%;
-  }
-  .fa-css3-alt{
-    background-color: rgb(0, 149, 255);
-    border-radius: 20%;
-  }
-  .fa-node-js{
-    background-color: rgb(29, 233, 29);
-    border-radius: 20%;
-  }
-  .fa-js-square{
-    background-color: rgb(29, 233, 29);
-    border-radius: 20%;
-  }
- 
-  .contact-details i {
-    font-size: 24px;
-    color: #007bff; 
-    animation: bounceIn 5.5s infinite;
-  }
-  h6{
-    text-decoration: underline;
-  
-  }
-  .contact-details p {
-    font-size: 18px;
-    margin-top: 10px;
-  }
-  
- 
-  @media screen and (max-width: 412px) {}
-.contact {
-  padding: 5px 20px;
+/* Global styles */
+html {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #3d3e42;
+  color: #9099a0;
 }
 
-.contact-details i {
-  font-size: 40px;
-  color: #16426f; 
-
+img {
+  width: 128px;
+  height: 1 28px;
 }
 
-.contact-details p {
-  font-size: 18px;
-  margin-top: 10px;
+.main {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
+.skill {
+  text-align: center;
+}
 
+.skill h4 {
+  color: #eee;
+  font-size: 1.2rem;
+}
+
+.skill p {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin: 0.5rem 0;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill {
+    margin-bottom: 20px;
+  }
+}
 </style>
-
-

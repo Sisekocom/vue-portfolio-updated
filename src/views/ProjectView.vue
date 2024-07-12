@@ -65,14 +65,14 @@ export default {
   background: #121212; 
   color: #fff; 
   font-family: 'Orbitron', sans-serif;
-  box-shadow: 0 0 200px  rgb(0, 254, 34);
+  /* box-shadow: 0 0 200px  rgb(0, 254, 34); */
 }
 img{
   border-radius: 50%;
   box-shadow: 0 0 20px  rgb(0, 254, 34);
   width: 150px;
   height: 150px;
-  border: 10px solid white;
+  border: 7px solid #6d7934;
   animation: rotateImage 5s linear infinite;
 }
 
@@ -83,7 +83,7 @@ img{
 
 .header-area h1 {
   font-size: 2.5rem;
-  color: #4dff4d;
+  color: #2f652f;
   margin-bottom: 1rem;
 }
 
@@ -91,13 +91,13 @@ img{
   width: 150px; 
   height: 150px; 
   border-radius: 50%;
-  animation: rotateImage 5s linear infinite;
+  animation: rotateImage 35s linear infinite;
   margin-bottom: 2rem; 
 }
 
 @keyframes rotateImage {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% { transform: rotat(0deg); }
+  100% { transform: rotate(360degdeg); }
 }
 
 .projects-grid {
