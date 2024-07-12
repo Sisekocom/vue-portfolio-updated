@@ -1,49 +1,51 @@
 <template>
   <div>
     <div class="footer bg-dark text-light">
-      <p class="lead"> My-Portfolio &copy;
-        <span>{{ currentYear }}</span>
+      <p class="lead"> 
+        <span>{{  }}</span>
       </p>
       <div class="skills">
         <div class="main">
           <div class="skill">
             <img src="https://i.postimg.cc/GmTjML1J/OIP-22-removebg-preview.png" />
             <h4>HTML</h4>
-            <p>1 year experience</p>
-            <p>Entry Level</p>
+           
           </div>
           <div class="skill">
             <img  width="120px" height="
             140px"  src="https://i.postimg.cc/GpQTKV9x/css-3-logo-removebg-preview.png" />
             <h4>CSS</h4>
-            <p>1 year experience</p>
-            <p>Entry Level</p>
+           
           </div>
           <div class="skill">
             <img  width="120px" height="
             140px"   src="https://i.postimg.cc/fbwfMx95/OIP-25-removebg-preview.png" />
             <h4>Vue.js</h4>
-            <p>1 year experience</p>
-            <p>Entry Level</p>
+           
           </div>
           <div class="skill">
-            <img  width="120px" height="
-            140px" src="https://i.postimg.cc/L6Ws9RgW/R-6-removebg-preview.png" />
+            <img  width="240px" height="
+            145px" src="https://i.postimg.cc/L6Ws9RgW/R-6-removebg-preview.png" />
             <h4>Bootstrap </h4>
-            <p>1 year experience</p>
-            <p>Entry Level</p>
+            
           </div>
           <div class="skill">
             <img width="120px" height="
             140px" src="https://i.postimg.cc/Hn4PSpDk/OIP-29-removebg-preview.png" />
             <h4>MySql</h4>
-            <p>1 year experience</p>
-            <p>Entry Level</p>
+            
           </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="footer bg-dark~ text-secondary p-1">
+  <p class="lead"> Designed by Siseko Nonyongo &copy;
+    <span>{{ currentYear }}</span>
+  </p>
+
+</div> 
+
 </template>
 
 <script>

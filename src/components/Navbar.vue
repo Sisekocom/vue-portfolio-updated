@@ -67,7 +67,7 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-    color: #42b983;
+    color: #6d7934;
 }
 
 img[alt='logo'] {
@@ -89,7 +89,7 @@ img[alt='logo'] {
 #aboutme {
     font-size: x-large;
     font-weight: 900;
-    color: #063d24;
+    color: #6d7934;
     font-size: 3em;
 
 }
